@@ -1,22 +1,36 @@
-# Static Portfolio Hosting on AWS S3 + CloudFront
+# Static Portfolio Hosting on AWS S3 + CloudFront 🚀
 
-## Objective
-To host a static portfolio website using AWS S3 and serve it securely via CloudFront (HTTPS).
+## 📁 Technologies Used
+- **AWS S3** (Static Website Hosting)
+- **AWS CloudFront** (CDN + HTTPS)
+- **HTML/CSS/JavaScript**
+- **Bucket Policy** (Public Access)
 
-## Technologies Used
-- HTML
-- CSS
-- AWS S3
-- AWS CloudFront
-- GitHub
+## 🌐 Live URLs
+**S3 Endpoint**: http://momin-s3-portfolio-123.s3-website.ap-south-1.amazonaws.com [✅ Working]
 
-## Steps Followed
-1. Created a single-page static portfolio using HTML and CSS.
-2. Uploaded the project files to a GitHub repository.
-3. Created an S3 bucket and enabled static website hosting.
-4. Uploaded website files to the S3 bucket.
-5. Configured bucket policy to allow public access.
-6. Set up CloudFront distribution to serve the site over HTTPS.
+**CloudFront CDN**: `https://dxxxx.cloudfront.net` [⏳ Deploying...]
 
-## Live URL
-https://your-cloudfront-url
+## ✅ Deliverables Completed
+- [x] S3 bucket created: `momin-s3-portfolio-123`
+- [x] Static website hosting enabled
+- [x] Block Public Access → OFF
+- [x] Bucket policy for `s3:GetObject`
+- [x] Portfolio files uploaded (index.html, style.css, images)
+- [x] 3 Projects section with GitHub links
+- [x] Responsive design (mobile-friendly)
+
+## 📸 Screenshots
+![S3 Bucket Policy](screenshots/bucket-policy.png)
+![Static Hosting](screenshots/static-hosting.png)
+![Projects Section](screenshots/projects.png)
+
+## 🚀 Deployment Steps
+1. Created S3 bucket in **ap-south-1 (Mumbai)**
+2. Enabled **Static website hosting**
+3. Disabled **Block all public access**
+4. Added **bucket policy** for public read
+5. Uploaded HTML/CSS/images
+6. Created **CloudFront distribution** (In Progress)
+
+**Task Status: 95% Complete** ⏳ Waiting for CloudFront deployment.
