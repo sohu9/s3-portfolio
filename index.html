@@ -1,46 +1,239 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Momin Shoaib | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- Boxicons CDN -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
+  <!-- Navbar -->
+  <header class="header">
+  <a href="#home" class="logo">MS</a>
 
-  <section class="hero">
-    <h1>Hi, I'm Momin</h1>
-    <p>Cloud & DevOps Intern</p>
-    <a href="#contact" class="btn">Contact Me</a>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero / Home -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Momin Shoaib Akhter</h1>
+      <h3>And I'm a <span class="typing-text"></span></h3>
+      <p>
+        Computer Engineering student and aspiring DevOps/Cloud engineer, 
+        focused on building real-world solutions and strong foundations in modern infrastructure.
+      </p>
+
+      <div class="social-media">
+        <a href="mailto:ansarishoaib5252@gmail.com"><i class='bx bx-envelope'></i></a>
+        <a href="tel:+918180082162"><i class='bx bx-phone'></i></a>
+        <a href="https://github.com" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/momin-shoaib-02730829a" target="_blank">
+          <i class='bx bxl-linkedin'></i>
+        </a>
+      </div>
+
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+
+    <div class="home-img">
+  <img src="images/momin-photo.png" alt="Momin Shoaib" class="profile-img">
+  <div class="circle"></div>
+</div>
+
   </section>
 
-  <section class="about">
-    <h2>About Me</h2>
-    <p>I am learning Cloud Computing and DevOps and building real projects.</p>
+  <!-- About -->
+  <section class="about" id="about">
+  <div class="about-img">
+    <img src="images/momin-photo.png" alt="Momin Shoaib" class="profile-img">
+  </div>
+  <div class="about-content">
+    <h2 class="heading">About <span>Me</span></h2>
+    <h3>Computer Engineering Student | DevOps Enthusiast</h3>
+
+    <p>
+      My name is <b>Momin Shoaib Akhter</b>. I am a third-year Computer Engineering student 
+      focused on building a career as a DevOps/Cloud engineer.
+    </p>
+    <p>
+      I actively work with tools like Git, Docker, Kubernetes, Ansible, Terraform and Linux, 
+      and I enjoy automating workflows and learning cloud-native technologies.
+    </p>
+    <p>
+      Along with college and part-time work, I am preparing projects that showcase 
+      real-world skills in deployment, automation and infrastructure as code.
+    </p>
+  </div>
+</section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills-container">
+      <div class="skills-box">
+        <h3>Programming Languages</h3>
+        <ul>
+          <li>Python</li>
+          <li>C++</li>
+          <li>Java</li>
+        </ul>
+      </div>
+
+      <div class="skills-box">
+        <h3>DevOps & Tools</h3>
+        <ul>
+          <li>Git</li>
+          <li>Docker</li>
+          <li>Kubernetes</li>
+          <li>Ansible</li>
+          <li>Terraform</li>
+          <li>Linux</li>
+        </ul>
+      </div>
+
+      <div class="skills-box">
+        <h3>Currently Exploring</h3>
+        <ul>
+          <li>Cloud Platforms</li>
+          <li>CI/CD Pipelines</li>
+          <li>Infrastructure as Code</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
-  <section class="projects">
-    <h2>Projects</h2>
+ <!-- Projects -->
+<section class="projects" id="projects">
+  <h2 class="heading">Latest <span>Projects</span></h2>
+  
+  <div class="projects-grid">
+    <!-- Virtual Mouse -->
+    <div class="project-card">
+      <div class="project-img-placeholder"></div>
+      <div class="project-content">
+        <h4>Virtual Mouse</h4>
+        <p>Hand gesture controlled mouse using computer vision and MediaPipe. Python-based real-time tracking system.</p>
+        <div class="project-tech">
+          <span>Python</span>
+          <span>OpenCV</span>
+          <span>MediaPipe</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/sohu9/virtual-mouse" target="_blank" class="project-btn">
+            <i class='bx bxl-github'></i> GitHub
+          </a>
+          <a href="#" class="project-btn demo-btn">
+            Live Demo
+          </a>
+        </div>
+      </div>
+    </div>
 
-    <div class="card">Portfolio Website</div>
-    <div class="card">AWS S3 Hosting</div>
-    <div class="card">CloudFront CDN</div>
+    <!-- Resume Ranker Bot -->
+    <div class="project-card">
+      <div class="project-img-placeholder"></div>
+      <div class="project-content">
+        <h4>Resume Ranker Bot</h4>
+        <p>AI-powered resume screening automation for recruiters. NLP-based matching and ranking system.</p>
+        <div class="project-tech">
+          <span>Python</span>
+          <span>NLP</span>
+          <span>Automation</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/sohu9/resume-ranker-bot" target="_blank" class="project-btn">
+            <i class='bx bxl-github'></i> GitHub
+          </a>
+          <a href="#" class="project-btn demo-btn">
+            Live Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Income Tax Calculator -->
+    <div class="project-card">
+      <div class="project-img-placeholder"></div>
+      <div class="project-content">
+        <h4>Income Tax Calculator</h4>
+        <p>Interactive tax calculation tool with Indian tax slab support. Responsive web calculator.</p>
+        <div class="project-tech">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/sohu9/income-tax-calculator" target="_blank" class="project-btn">
+            <i class='bx bxl-github'></i> GitHub
+          </a>
+          <a href="#" class="project-btn demo-btn">
+            Live Demo
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Certificates (baad me add) -->
+  <section class="certificates" id="certificates">
+    <h2 class="heading">My <span>Certificates</span></h2>
+    <p class="info-text">
+      Certificates and achievements will be added here soon as I complete more courses and trainings.
+    </p>
+    <div class="cert-container">
+      <!-- Future certificate cards -->
+    </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p><i class="fa fa-envelope"></i> momin@example.com</p>
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <p><i class='bx bx-phone'></i> Phone: <a href="tel:+918180082162">+91 81800 82162</a></p>
+        <p><i class='bx bx-envelope'></i> Email: 
+          <a href="mailto:ansarishoaib5252@gmail.com">ansarishoaib5252@gmail.com</a>
+        </p>
+        <p><i class='bx bxl-linkedin'></i> 
+          <a href="https://www.linkedin.com/in/momin-shoaib-02730829a" target="_blank">
+            LinkedIn Profile
+          </a>
+        </p>
+      </div>
+
+      <form action="#" class="contact-form">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Subject">
+        </div>
+        <textarea cols="30" rows="8" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
   </section>
 
-  <footer>
-    <p>© 2026 Momin</p>
+  <footer class="footer">
+    <p>© 2025 Momin Shoaib. All rights reserved.</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
