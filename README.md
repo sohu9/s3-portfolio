@@ -1,36 +1,50 @@
-# Static Portfolio Hosting on AWS S3 + CloudFront 🚀
+# Static Portfolio Hosting on AWS S3 + CloudFront 🚀 **✅ 100% COMPLETE**
 
 ## 📁 Technologies Used
 - **AWS S3** (Static Website Hosting)
 - **AWS CloudFront** (CDN + HTTPS)
 - **HTML/CSS/JavaScript**
 - **Bucket Policy** (Public Access)
+- **Git/GitHub** (Source Code)
 
 ## 🌐 Live URLs
-**S3 Endpoint**: http://momin-s3-portfolio-123.s3-website.ap-south-1.amazonaws.com [✅ Working]
+**S3 Endpoint**: http://momin-s3-portfolio-123.s3-website.ap-south-1.amazonaws.com **[✅ LIVE]**
 
-**CloudFront CDN**: `https://dxxxx.cloudfront.net` [⏳ Deploying...]
+**CloudFront CDN**: https://d3ok7x7s7t5ttj.cloudfront.net **[✅ LIVE - HTTPS]**
+
+## 💻 GitHub Repository
+[**https://github.com/sohu9/momin-s3-portfolio-2026**](https://github.com/sohu9/momin-s3-portfolio-2026)
 
 ## ✅ Deliverables Completed
-- [x] S3 bucket created: `momin-s3-portfolio-123`
-- [x] Static website hosting enabled
-- [x] Block Public Access → OFF
-- [x] Bucket policy for `s3:GetObject`
-- [x] Portfolio files uploaded (index.html, style.css, images)
-- [x] 3 Projects section with GitHub links
-- [x] Responsive design (mobile-friendly)
+- [x] **S3 bucket** created: `momin-s3-portfolio-123`
+- [x] **Static website hosting** enabled
+- [x] **Block Public Access** → **OFF**
+- [x] **Bucket policy** for `s3:GetObject`
+- [x] **Portfolio files** uploaded (index.html, style.css, images)
+- [x] **3 Projects section** with GitHub links:
+  * Virtual Mouse (Python/OpenCV/MediaPipe)
+  * Resume Ranker Bot (NLP/Automation)  
+  * Income Tax Calculator (HTML/CSS/JS)
+- [x] **Responsive design** (mobile-friendly)
+- [x] **CloudFront distribution** → **DEPLOYED**
 
 ## 📸 Screenshots
 ![S3 Bucket Policy](screenshots/bucket-policy.png)
-![Static Hosting](screenshots/static-hosting.png)
+![Static Hosting Enabled](screenshots/static-hosting.png)
 ![Projects Section](screenshots/projects.png)
+![CloudFront Deployed](screenshots/cloudfront-deployed.png)
 
 ## 🚀 Deployment Steps
-1. Created S3 bucket in **ap-south-1 (Mumbai)**
-2. Enabled **Static website hosting**
-3. Disabled **Block all public access**
-4. Added **bucket policy** for public read
-5. Uploaded HTML/CSS/images
-6. Created **CloudFront distribution** (In Progress)
+1. ✅ **Created** S3 bucket in **ap-south-1 (Mumbai)**
+2. ✅ **Enabled** Static website hosting
+3. ✅ **Disabled** Block all public access  
+4. ✅ **Added** bucket policy for public read
+5. ✅ **Uploaded** HTML/CSS/images files
+6. ✅ **Created & Deployed** CloudFront distribution
+7. ✅ **Pushed** to GitHub with documentation
 
-**Task Status: 95% Complete** ⏳ Waiting for CloudFront deployment.
+---
+
+**Cloud Computing & DevOps Task-1**  
+**Momin Shoaib Akhter** | **Submitted: 03 Jan 2026**  
+**Status: ✅ FULLY COMPLETED**
