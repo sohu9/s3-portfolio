@@ -29,10 +29,17 @@
 - [x] **CloudFront distribution** → **DEPLOYED**
 
 ## 📸 Screenshots
-![S3 Bucket Policy](https://drive.google.com/file/d/12z5PWqlibg1EqoDH3VZ0U9KMzlwSgGgz/view?usp=drivesdk)
-![Static Hosting Enabled](https://drive.google.com/file/d/1Vf7V0WUhmrvKT4XGQSiD8to3BegAKblC/view?usp=drivesdk)
-![Projects Section](https://drive.google.com/file/d/1RrIQcaEVqAHesvTVxXTDY0OhXAPehIwW/view?usp=drivesdk)
-![CloudFront Deployed](https://drive.google.com/file/d/1iXkpzV0Om00Prx_2DRiBJJqBGwp4xylH/view?usp=drivesdk)
+![S3 Bucket Policy]
+https://drive.google.com/file/d/12z5PWqlibg1EqoDH3VZ0U9KMzlwSgGgz/view?usp=drivesdk
+
+![Static Hosting]
+https://drive.google.com/file/d/1Vf7V0WUhmrvKT4XGQSiD8to3BegAKblC/view?usp=drivesdk
+
+![Projects Section]
+https://drive.google.com/file/d/1RrIQcaEVqAHesvTVxXTDY0OhXAPehIwW/view?usp=drivesdk
+
+![CloudFront Deployed]
+https://drive.google.com/file/d/1iXkpzV0Om00Prx_2DRiBJJqBGwp4xylH/view?usp=drivesdk
 
 ## 🚀 Deployment Steps
 1. ✅ **Created** S3 bucket in **ap-south-1 (Mumbai)**
