@@ -13,7 +13,7 @@
 **CloudFront CDN**: https://d3ok7x7s7t5ttj.cloudfront.net **[✅ LIVE - HTTPS]**
 
 ## 💻 GitHub Repository
-[**https://github.com/sohu9/momin-s3-portfolio-2026**](https://github.com/sohu9/momin-s3-portfolio-2026)
+[**https://github.com/sohu9/momin-s3-portfolio-2026**](https://github.com/sohu9/s3-portfolio.git)
 
 ## ✅ Deliverables Completed
 - [x] **S3 bucket** created: `momin-s3-portfolio-123`
